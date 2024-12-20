@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prakriti by PG</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background: linear-gradient(135deg, #a8e063, #63b0dd);
+        color: #fff;
+        text-align: center;
+        overflow: hidden;
+      }
+      h1 {
+        font-size: 3rem;
+        margin: 0;
+      }
+      p {
+        font-size: 1.5rem;
+        margin: 0.5rem 0 2rem;
+      }
+      footer {
+        position: absolute;
+        bottom: 10px;
+        font-size: 0.875rem;
+      }
+      .leaf {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background: rgba(255, 255, 255, 0.7);
+        border-radius: 50%;
+        animation: float 5s infinite ease-in-out;
+      }
+      .leaf:nth-child(1) {
+        top: 10%;
+        left: 20%;
+        animation-delay: 0s;
+        animation-duration: 4s;
+      }
+      .leaf:nth-child(2) {
+        top: 30%;
+        left: 70%;
+        animation-delay: 1s;
+        animation-duration: 5s;
+      }
+      .leaf:nth-child(3) {
+        top: 50%;
+        left: 40%;
+        animation-delay: 2s;
+        animation-duration: 6s;
+      }
+      .leaf:nth-child(4) {
+        top: 70%;
+        left: 10%;
+        animation-delay: 3s;
+        animation-duration: 4.5s;
+      }
+      .leaf:nth-child(5) {
+        top: 80%;
+        left: 60%;
+        animation-delay: 4s;
+        animation-duration: 5.5s;
+      }
+      @keyframes float {
+        0% {
+          transform: translateY(0) rotate(0deg);
+        }
+        50% {
+          transform: translateY(-30px) rotate(180deg);
+        }
+        100% {
+          transform: translateY(0) rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Prakriti by PG</h1>
+      <p>Launching Soon</p>
+      <div class="leaf"></div>
+      <div class="leaf"></div>
+      <div class="leaf"></div>
+      <div class="leaf"></div>
+      <div class="leaf"></div>
+      <div class="leaf"></div>
+      <div class="leaf"></div>
+      <div class="leaf"></div>
+      <div class="leaf"></div>
+      <div class="leaf"></div>
+      
+      <div class="leaf"></div>
+    </main>
+    <footer>
+      Copyright &copy; 2024 Prakriti by PG - All Rights Reserved.
+    </footer>
+  </body>
+</html>
